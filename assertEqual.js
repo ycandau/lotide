@@ -1,4 +1,3 @@
-// Function definition
 const assertEqual = function(actual, expected) {
 
   const [color, emoji, outcome, operator] =
@@ -11,7 +10,7 @@ const assertEqual = function(actual, expected) {
 };
 
 // Tests
-assertEqual("Same", "Same");
-assertEqual("Same", "Different");
-assertEqual(1, 1);
-assertEqual(1, 2);
+// assertEqual("Same", "Same");
+// assertEqual("Same", "Different");
+// assertEqual(1, 1);
+// assertEqual(1, 2);
