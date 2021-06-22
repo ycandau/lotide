@@ -5,8 +5,7 @@ const assertEqual = function (actual, expected) {
       : ['\x1b[0m\x1b[31m', '\u274c', 'Failed', '!=='];
 
   console.log(
-    color,
-    emoji,
+    color + emoji,
     `Assertion ${outcome}: ${actual} ${operator} ${expected}`
   );
 };
