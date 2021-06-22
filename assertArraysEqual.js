@@ -1,4 +1,4 @@
-const assertArraysEqual = function (arr1, arr2) {
+const assertArraysEqual = (arr1, arr2) => {
   const [color, emoji, outcome, operator] = eqArrays(arr1, arr2)
     ? ['\x1b[2m\x1b[32m', '  ', 'Passed', '===']
     : ['\x1b[0m\x1b[31m', '\u274c', 'Failed', '!=='];
