@@ -14,8 +14,7 @@ const assertEqual = (actual, expected) => {
 
 const countLetters = (string) => {
   const counts = {};
-  const noSpaces = string.replace(' ', '');
-  for (const ch of noSpaces) {
+  for (const ch of string) {
     counts[ch] = ch in counts ? counts[ch] + 1 : 1;
   }
   return counts;
@@ -24,8 +23,8 @@ const countLetters = (string) => {
 // Tests
 assertEqual(countLetters('').toString(), {}.toString());
 assertEqual(countLetters('aaa').toString(), { a: 3 }.toString());
-assertEqual(countLetters('a lpha').a, 2);
-assertEqual(countLetters('a lpha')[' '], undefined);
+assertEqual(countLetters('alpha').a, 2);
 assertEqual(countLetters('alp  ha').l, 1);
 assertEqual(countLetters(' alpha').p, 1);
 assertEqual(countLetters('alpha ').h, 1);
+assertEqual(countLetters('a   lpha')[' '], 3);
