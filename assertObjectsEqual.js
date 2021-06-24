@@ -1,14 +1,3 @@
-// Test assertion functions
-const assertEqual = (actual, expected) => {
-  const [color, emoji, outcome, operator] =
-    actual === expected
-      ? ['\x1b[2m\x1b[32m', '  ', 'Passed', '===']
-      : ['\x1b[0m\x1b[31m', '\u274c', 'Failed', '!=='];
-  console.log(
-    color + emoji + `Assertion ${outcome}: ${actual} ${operator} ${expected}`
-  );
-};
-
 // Helper functions
 const eqArrays = (arr1, arr2) => {
   return (
@@ -42,16 +31,11 @@ const assertObjectsEqual = (obj1, obj2) => {
 };
 
 // Tests
-const a = { a: '1' };
 const ab = { a: '1', b: '2' };
 const ba = { b: '2', a: '1' };
 const abc = { a: '1', b: '2', c: '3' };
-const abc2 = { a: 1, b: '2', c: '3' };
 const de = { d: [1, 2], e: '2' };
 const ed = { e: '2', d: [1, 2] };
-const fg = { f: '2', g: [] };
-const gf = { g: [], f: '2' };
-const gf2 = { g: [1], f: '2' };
 
 assertObjectsEqual(ab, ba);
 assertObjectsEqual(de, ed);
