@@ -1,4 +1,6 @@
+//------------------------------------------------------------------------------
 // Test assertion functions
+
 const assertEqual = (actual, expected) => {
   const [color, emoji, outcome, operator] =
     actual === expected
