@@ -29,6 +29,6 @@ describe('#head', () => {
     const input = [1, 2, 3];
     const output = head(input);
     assert.deepEqual(input, [1, 2, 3]);
-    assert.notEqual(output, input);
+    assert.notEqual(input, output);
   });
 });
