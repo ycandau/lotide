@@ -10,8 +10,4 @@ const assertEqual = function (actual, expected) {
   );
 };
 
-// Tests
-assertEqual('Same', 'Same');
-assertEqual('Same', 'Different');
-assertEqual(1, 1);
-assertEqual(1, 2);
+module.exports = assertEqual;
