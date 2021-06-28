@@ -1,7 +1,7 @@
 {
-  "name": "lotide",
+  "name": "@username/lotide",
   "version": "1.0.0",
-  "description": "FOCAL utilities for JavaScript",
+  "description": "A mini clone of the Lodash library coded for education purposes.",
   "main": "assertArraysEqual.js",
   "directories": {
     "test": "test"
