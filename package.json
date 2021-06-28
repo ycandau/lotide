@@ -1,0 +1,27 @@
+{
+  "name": "lotide",
+  "version": "1.0.0",
+  "description": "FOCAL utilities for JavaScript",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ycandau/lotide.git"
+  },
+  "keywords": [],
+  "author": "Yves Candau",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ycandau/lotide/issues"
+  },
+  "homepage": "https://github.com/ycandau/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.4",
+    "mocha": "^9.0.1"
+  }
+}
