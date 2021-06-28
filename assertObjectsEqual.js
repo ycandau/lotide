@@ -41,3 +41,5 @@ assertObjectsEqual(ab, ba);
 assertObjectsEqual(de, ed);
 assertObjectsEqual(ab, abc);
 assertObjectsEqual(ab, {});
+
+module.exports = assertObjectsEqual;

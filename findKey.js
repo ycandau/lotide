@@ -35,3 +35,5 @@ assertEqual(findKey(obj, pipe(get('a'), equals(1))), 'alpha');
 assertEqual(findKey(obj, pipe(get('a'), exceeds(2))), 'gamma');
 assertEqual(findKey(obj, pipe(get('a'), isEven)), 'beta');
 assertEqual(findKey(obj, pipe(get('b'), equals('none'))), undefined);
+
+module.exports = findKey;

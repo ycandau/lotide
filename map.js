@@ -33,3 +33,5 @@ const firstTwoLetters = map(['alpha', 'beta', 'gamma'], head(2));
 assertArraysEqual(map([1, 2, 3], add(3)), [4, 5, 6]);
 assertArraysEqual(firstTwoLetters, ['al', 'be', 'ga']);
 assertArraysEqual(map(firstTwoLetters, uppercase), ['AL', 'BE', 'GA']);
+
+module.exports = map;

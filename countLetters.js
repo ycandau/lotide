@@ -28,3 +28,5 @@ assertEqual(countLetters('alp  ha').l, 1);
 assertEqual(countLetters(' alpha').p, 1);
 assertEqual(countLetters('alpha ').h, 1);
 assertEqual(countLetters('a lpha')[' '], undefined);
+
+module.exports = countLetters;

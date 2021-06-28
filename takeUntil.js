@@ -34,3 +34,5 @@ assertArraysEqual(takeUntil([1, 2, 3], equals(0)), [1, 2, 3]);
 assertArraysEqual(takeUntil([1, 2, -1, 3], equals(-1)), [1, 2]);
 assertArraysEqual(takeUntil(['a', 'b', null, 'c'], equals(null)), ['a', 'b']);
 assertArraysEqual(takeUntil([2, 4, 6, 8], exceeds(5)), [2, 4]);
+
+module.exports = takeUntil;

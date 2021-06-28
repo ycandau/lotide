@@ -81,3 +81,5 @@ assertEqual(eqObjects(h1, h3), false);
 assertEqual(eqObjects(h1, h4), false);
 assertEqual(eqObjects(i1, i2), true);
 assertEqual(eqObjects(i1, i3), false);
+
+module.exports = eqObjects;
