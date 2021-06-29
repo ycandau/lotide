@@ -26,4 +26,20 @@ This project was created and published by me as part of my learnings at Lighthou
 
 The following functions are currently implemented:
 
+- `assertArraysEqual(actual, expected)`: Assert that two arrays are equal.
+- `assertEqual(actual, expected)`: Assert that two variables are strictly equal.
+- `assertObjectsEqual(actual, expected)`: Assert that two objects are equal.
+- `countLetters(string)`: Count the letters in a string, ignoring spaces, and return an object with the counts.
+- `countOnly(array, itemsToCount)`: Count the elements in an array, given an object with boolean values determining what to count.
+- `eqArrays(array1, array2)`: Predicate to test if two arrays are equal.
+- `eqObjects(object1, object2)`: Predicate to test if two objects are equal.
+- `findKey(object, callback)`: Find the key in an object that satisfies a predicate.
+- `findKeyByValue(object, value)`: Find the key in an object that has a given value.
+- `flatten(array)`: Flatten an array of arrays.
 - `head(array)`: Returns the first element of an array.
+- `letterPositions(string)`: Given a string, returns an object with a key for each included letter, and an array of indexes as value.
+- `map(array, callback)`: Map an array to a new array by applying a callback.
+- `middle(array)`: Return the middle of an array (one or two elements based on odd or even length).
+- `tail(array)`: Return a copy of an array starting from the second element.
+- `takeUntil(array)`: Return a copy of an array up until a predicate is satisfied (not inclusive).
+- `without(source, itemsToRemove)`: Return a copy of an array with the exclusion of all elements from a second array.
