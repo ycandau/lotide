@@ -36,10 +36,10 @@ The following functions are currently implemented:
 - `findKey(object, callback)`: Find the key in an object that satisfies a predicate.
 - `findKeyByValue(object, value)`: Find the key in an object that has a given value.
 - `flatten(array)`: Flatten an array of arrays.
-- `head(array)`: Returns the first element of an array.
-- `letterPositions(string)`: Given a string, returns an object with a key for each included letter, and an array of indexes as value.
+- `head(array)`: Return the first element of an array.
+- `letterPositions(string)`: Given a string, return an object with a key for each included letter, and arrays of indexes as values.
 - `map(array, callback)`: Map an array to a new array by applying a callback.
-- `middle(array)`: Return the middle of an array (one or two elements based on odd or even length).
+- `middle(array)`: Return the middle of an array (one or two elements based on odd or even lengths).
 - `tail(array)`: Return a copy of an array starting from the second element.
 - `takeUntil(array)`: Return a copy of an array up until a predicate is satisfied (not inclusive).
 - `without(source, itemsToRemove)`: Return a copy of an array with the exclusion of all elements from a second array.
